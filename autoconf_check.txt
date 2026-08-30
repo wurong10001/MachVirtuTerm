@@ -1,0 +1,15 @@
+﻿In file included from C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel\hp_pa\HP700\autoconf.c:53:
+In file included from C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/device/ds_routines.h:84:
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/kern/host.h:102:22: warning: redefinition of typedef 'host_t' is a C11 feature [-Wtypedef-redefinition]
+  102 | typedef struct host     *host_t;
+      |                          ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\android_compat/mach_host.h:14:24: note: previous definition is here
+   14 | typedef struct host *           host_t;
+      |                                 ^
+In file included from C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel\hp_pa\HP700\autoconf.c:54:
+In file included from C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/HP700/device.h:62:
+In file included from C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/device/tty.h:104:
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/device/io_req.h:137:10: fatal error: 'chained_ios.h' file not found
+  137 | #include <chained_ios.h>
+      |          ^~~~~~~~~~~~~~~
+1 warning and 1 error generated.

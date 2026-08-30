@@ -1,0 +1,128 @@
+﻿In file included from C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel\hp_pa\HP700\hpux_label.c:63:
+In file included from C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/scsi/scsi.h:143:
+In file included from C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/scsi/scsi_endian.h:70:
+In file included from C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\android_compat/machine/endian.h:2:
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:64:27: note: use constraint modifier "w"
+   64 |         __asm__ __volatile ("dep        %1,7,8,%0\n\t"
+      |                                         ^~
+      |                                         %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:13: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                  ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:64:34: note: use constraint modifier "w"
+   64 |         __asm__ __volatile ("dep        %1,7,8,%0\n\t"
+      |                                                ^~
+      |                                                %w0
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:65:9: note: use constraint modifier "w"
+   65 |                         "shd    %1,%1,8,%1\n\t"
+      |                                 ^~
+      |                                 %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:65:12: note: use constraint modifier "w"
+   65 |                         "shd    %1,%1,8,%1\n\t"
+      |                                    ^~
+      |                                    %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:65:17: note: use constraint modifier "w"
+   65 |                         "shd    %1,%1,8,%1\n\t"
+      |                                         ^~
+      |                                         %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:66:9: note: use constraint modifier "w"
+   66 |                         "dep    %1,15,8,%0\n\t"
+      |                                 ^~
+      |                                 %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:13: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                  ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:66:17: note: use constraint modifier "w"
+   66 |                         "dep    %1,15,8,%0\n\t"
+      |                                         ^~
+      |                                         %w0
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:67:9: note: use constraint modifier "w"
+   67 |                         "shd    %1,%1,8,%1\n\t"
+      |                                 ^~
+      |                                 %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:67:12: note: use constraint modifier "w"
+   67 |                         "shd    %1,%1,8,%1\n\t"
+      |                                    ^~
+      |                                    %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:67:17: note: use constraint modifier "w"
+   67 |                         "shd    %1,%1,8,%1\n\t"
+      |                                         ^~
+      |                                         %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:68:9: note: use constraint modifier "w"
+   68 |                         "dep    %1,23,8,%0\n\t"
+      |                                 ^~
+      |                                 %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:13: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                  ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:68:17: note: use constraint modifier "w"
+   68 |                         "dep    %1,23,8,%0\n\t"
+      |                                         ^~
+      |                                         %w0
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:69:9: note: use constraint modifier "w"
+   69 |                         "shd    %1,%1,8,%1\n\t"
+      |                                 ^~
+      |                                 %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:69:12: note: use constraint modifier "w"
+   69 |                         "shd    %1,%1,8,%1\n\t"
+      |                                    ^~
+      |                                    %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:69:17: note: use constraint modifier "w"
+   69 |                         "shd    %1,%1,8,%1\n\t"
+      |                                         ^~
+      |                                         %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:28: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                                 ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:70:9: note: use constraint modifier "w"
+   70 |                         "dep    %1,31,8,%0"
+      |                                 ^~
+      |                                 %w1
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:71:13: warning: value size does not match register size specified by the constraint and modifier [-Wasm-operand-widths]
+   71 |                         : "=&r" (result), "=r" (_ov) : "1" (_ov));
+      |                                  ^
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/hp_pa/endian.h:70:17: note: use constraint modifier "w"
+   70 |                         "dep    %1,31,8,%0"
+      |                                         ^~
+      |                                         %w0
+In file included from C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel\hp_pa\HP700\hpux_label.c:64:
+C:\Users\Administrator\Desktop\Projects\AndroidStudioProjects\Mos\app\src\main\cpp\kernel\src\mach_kernel/scsi/scsi_defs.h:166:10: fatal error: 'scsiinfo.h' file not found
+  166 | #include <scsiinfo.h>
+      |          ^~~~~~~~~~~~
+17 warnings and 1 error generated.
