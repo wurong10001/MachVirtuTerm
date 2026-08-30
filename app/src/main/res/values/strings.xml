@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Mos虚拟机</string>
+    <string name="app_name">VirtuTerm</string>
+    <string name="toolbar_subtitle_running">HP700 · RUNNING</string>
+    <string name="toolbar_subtitle_stopped">HP700 · STOPPED</string>
+    <string name="action_clear">清除屏幕</string>
+    <string name="action_scroll">跟随输出</string>
+    <string name="action_power">电源</string>
+    <string name="desc_power">启动 / 停止虚拟机</string>
 </resources>

@@ -70,6 +70,14 @@ target_compile_definitions(hp700_sources PRIVATE MACH_KERNEL)
 # The 1990s kernel code trips many modern Clang diagnostics.  Keep the
 # original sources byte-for-byte and tolerate their idioms for now.
 target_compile_options(hp700_sources PRIVATE
+        # The 1990s sources hand-declare libc functions (e.g. grf_sti.c:
+        # "unsigned long strlen(...)").  NDK enables -D_FORTIFY_SOURCE=2,
+        # which turns strlen into an always_inline *definition* -> hard
+        # "conflicting types" error on 32-bit (size_t != unsigned long).
+        # Disabling fortify restores a plain declaration, where the
+        # mismatch becomes a warning suppressed by
+        # -Wno-incompatible-library-redeclaration below.
+        -U_FORTIFY_SOURCE
         # Mach 3.0 defines globals directly in headers (master_cpu,
         # vm_page_queue_lock, kbd_keymap, ...) and relies on the classic C
         # common-symbol merging; clang >= 19 defaults to -fno-common.

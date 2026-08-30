@@ -82,8 +82,10 @@ void dump_sti_regions(struct sti_region *rp);
 
 /*
  * Externs
+ * NDK adapt: the 1990s sources declare strlen returning unsigned long,
+ * which collides with <string.h> on 32-bit (size_t == unsigned int there).
  */
-unsigned long strlen(register const char *string);
+size_t strlen(register const char *string);
 
 /*
  * Initialize hardware.
